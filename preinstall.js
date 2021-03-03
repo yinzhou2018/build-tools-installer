@@ -13,8 +13,8 @@ function throwForBadSpawn(basicInfo, spawnSyncResult) {
 
 function install() {
   const installPath = path.resolve(homedir(), '.electron_build_tools');
-  const BUILD_TOOLS_URL = 'https://github.com/electron/build-tools';
-
+  // const BUILD_TOOLS_URL = 'https://github.com/electron/build-tools';
+  const BUILD_TOOLS_URL = 'https://github.com/yinzhou2018/build-tools';
   try {
     // Clone build-tools into user homedir
     if (existsSync(installPath)) {

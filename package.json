@@ -1,5 +1,5 @@
 {
-  "name": "@electron/build-tools",
+  "name": "@yinzhou/electron-build-tools-installer",
   "version": "1.0.4",
   "description": "A wrapper toolkit for working with Electron.js source code",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/build-tools-installer.git"
+    "url": "git+https://github.com/yinzhou2018/build-tools-installer.git"
   },
   "author": "Shelley Vohr <shelley.vohr@gmail.com>",
   "license": "MIT",
